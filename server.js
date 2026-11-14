@@ -2,6 +2,7 @@ import http from "http"
 
 // Create HTTP server
 const server = http.createServer((req,res) => {
+    console.log(req.url)
     res.end("Hello World")
 });
 
