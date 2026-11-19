@@ -7,8 +7,8 @@ const server = http.createServer((req,res) => {
 });
 
 
-// Start server on port 3000
-server.listen(3000, () => {
-    console.log("server running at http://localhost:3000");
+// Start server on port 8000
+server.listen(8000, () => {
+    console.log("server running at http://localhost:8000");
     
 });
